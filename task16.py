@@ -11,7 +11,7 @@
 вывод -> 1
 """
 
-#list_1 = [1, 2, 3, 4, 5]
+
 from random import randint
 n = int (input("Введите количество элементов "))
 list_1 = [randint(1, 10) for _ in range(n)]
